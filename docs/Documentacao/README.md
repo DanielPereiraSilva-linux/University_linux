@@ -1,4 +1,5 @@
-# Cronograma Intensivo de 12 Dias - LPI (Linux Professional Institute)
+# Cronograma Intensivo de 12 Dias 
+
 
 Este é um cronograma intensivo de **12 dias**, com **1 hora de aula** por dia, focado no conteúdo da certificação **LPI (Linux Professional Institute)**. O curso abrange desde os conceitos mais básicos de Linux até tópicos mais avançados, proporcionando uma compreensão sólida sobre o uso e administração de sistemas Linux.
 
