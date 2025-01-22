@@ -28,3 +28,7 @@ Além disso, é recomendado ter privilégios de administrador (sudo) para instal
 1. Clone este repositório para o seu sistema:
    ```bash
    git clone https://github.com/DanielPereiraSilva-linux/University_linux.git
+
+2. Documentação até aqui
+
+   [Documentação](./Documentacao/documentacao.md)
