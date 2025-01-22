@@ -17,25 +17,37 @@ O repositório **University_Linux** contém as seguintes pastas principais:
 - **docs/**: Documentação colaborativa criada pelos alunos. Aqui é onde você pode contribuir com as suas anotações, tutoriais, dicas e qualquer conteúdo relevante.
 - **contribuicao/**: Diretório onde estão os arquivos relacionados ao sistema operacional **University_Linux**, incluindo a base do sistema, configurações personalizadas, e futuras ferramentas desenvolvidas para os alunos.
 
-## Estrutura do Sistema e Principais Pastas para Desenvolvimento da ISO
+## Diretórios Principais
 
-O sistema **University_Linux** é baseado no Fedora, e o desenvolvimento da ISO envolve interagir com as principais pastas do sistema. Aqui estão algumas das pastas mais importantes para o desenvolvimento e personalização da ISO:
+A estrutura de diretórios do **University_Linux** é organizada para facilitar a personalização e o desenvolvimento de ferramentas educacionais. Cada diretório tem uma finalidade específica, conforme descrito abaixo:
 
-- **/etc**: Contém a maioria dos arquivos de configuração do sistema. Aqui você vai encontrar configurações cruciais como redes, serviços e preferências do sistema.
-  
-- **/boot**: Contém arquivos relacionados ao carregamento do sistema operacional, como o **GRUB** (gerenciador de inicialização) e o kernel do Linux.
+### 1. **university_linux-config/**
 
-- **/** (Root): A raiz do sistema, onde estão localizados todos os arquivos essenciais para o funcionamento do sistema operacional.
+Este diretório é responsável pelas **configurações do sistema**. Ele contém arquivos essenciais para personalizar a configuração de rede, segurança, firewall, gerenciamento de pacotes, entre outros. A ideia é fornecer configurações prontas para a base do sistema **University_Linux**.
 
-- **/sys**: Uma pasta virtual que fornece informações sobre o kernel e dispositivos do sistema em tempo real. Útil para diagnóstico e monitoramento.
+- **system-config/**: Contém as configurações principais do sistema.
+  - **network/**: Contém arquivos relacionados às configurações de rede, como interfaces e roteamento.
+  - **ssh/**: Contém o arquivo de configuração para o **SSH** (Secure Shell), necessário para acesso remoto seguro.
+  - **firewall/**: Arquivos de configuração do firewall do sistema, como o **firewalld**.
+  - **package-management/**: Configurações para o gerenciador de pacotes **DNF**, utilizado para instalar e gerenciar pacotes no Fedora.
+  - **systemd/**: Arquivos de configuração relacionados ao **systemd**, o sistema de inicialização e gerenciamento de serviços.
+  - **security/**: Contém configurações de segurança, como o arquivo do **SELinux** (Security-Enhanced Linux), que define as políticas de segurança.
 
-- **/usr**: Contém os arquivos principais para programas e bibliotecas instaladas no sistema. Muitas das aplicações e utilitários que o sistema usa estarão localizados aqui.
+### 2. **university_linux-theme/**
 
-- **/var**: Armazena arquivos variáveis como logs de sistemas, caches de pacotes, e arquivos temporários usados durante a execução do sistema.
+Este diretório é dedicado à **personalização da interface gráfica** e dos temas do sistema. Ele contém recursos gráficos e temas para o ambiente de desktop, com foco na experiência visual e na personalização do ambiente de trabalho.
 
-- **/bin**: Contém os arquivos executáveis essenciais para o sistema. Aqui estão localizados os comandos principais que você usará para interagir com o sistema.
+- **icons/**: Contém os ícones personalizados do sistema, que são usados para representar arquivos, pastas e aplicativos.
+- **wallpapers/**: Contém os wallpapers (imagens de fundo) que serão usados no ambiente de desktop, permitindo personalização visual.
+- **gtk-themes/**: Contém temas personalizados para o **GTK**, que são usados para alterar a aparência dos aplicativos e do ambiente de desktop em geral.
 
-- **/usr/bin**: Contém os executáveis para aplicações instaladas pelo sistema ou por pacotes adicionais.
+### 3. **university_linux-tools/**
+
+Este diretório é onde estarão localizadas as **ferramentas desenvolvidas para o auxílio no aprendizado dos alunos**. Ele inclui ferramentas específicas para **inteligência artificial**, **acessibilidade** e **desenvolvimento**.
+
+- **ia-tools/**: Ferramentas baseadas em **inteligência artificial**, projetadas para auxiliar no aprendizado e na resolução de problemas em áreas como programação, ciência de dados e automação.
+- **assistive-tools/**: Ferramentas voltadas para **acessibilidade**, ajudando alunos com necessidades especiais a interagir com o sistema de forma mais eficiente.
+- **developer-tools/**: Ferramentas destinadas a **desenvolvedores**, como editores de código, compressores de arquivos, depuradores e outras utilidades para facilitar o desenvolvimento de software.
 
 ## ISO Inicial
 
