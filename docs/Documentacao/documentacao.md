@@ -12,6 +12,7 @@ o sistema operacional.
 
 1. **Terminal**: Interface para interagir com o Shell.
 2. **Prompt**: O local onde você digita comandos. Exemplo de prompt padrão:
+$(usuario sem privilegios) ou #(root ou usuario com privilegios)
 
 ---
 
