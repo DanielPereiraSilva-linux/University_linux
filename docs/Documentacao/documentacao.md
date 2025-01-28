@@ -179,3 +179,24 @@ mv arquivo.txt /home/user/Documents
 #Renomear:
 mv arquivo.txt novo_nome.txt
 ```
+
+### 9. Comando tail (Visualiza final do arquivo)
+
+Visualiza as ultimas linhas do arquivo.
+
+**Exemplo:**
+
+```bash
+#Visualiza:
+tail nome_do_arquivo.txt
+```
+
+```bash
+#Visualiza em tempo real:
+tail -f nome_do_arquivo.txt
+```
+
+
+
+
+
