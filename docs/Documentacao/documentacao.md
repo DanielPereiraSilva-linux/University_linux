@@ -179,3 +179,6 @@ mv arquivo.txt /home/user/Documents
 #Renomear:
 mv arquivo.txt novo_nome.txt
 ```
+
+### 9. Comando less (Navegar no arquivo)
+
