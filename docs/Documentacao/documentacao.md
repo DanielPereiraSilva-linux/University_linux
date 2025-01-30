@@ -187,6 +187,10 @@ mv arquivo.txt /home/user/Documents
 mv arquivo.txt novo_nome.txt
 ```
 
+
+### 9. Comando less (Navegar no arquivo)
+
+=======
 Observação: ao pressionar a tecla `tab` o terminal autocompleta, e em caso de
 diretórios ele adicionará uma `/` ao final do caminho, mas em casos de
 arquivos ele só autocompleta o nome do mesmo.
@@ -418,3 +422,4 @@ Saída
 |tail | Exibe as últimas linhas de um arquivo | tail -f log.txt|
 |find | Busca arquivos ou diretórios | find /home/user -name "arquivo.txt"|
 |wc | Conta linhas, palavras e caracteres | wc texto.txt|
+
