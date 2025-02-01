@@ -186,10 +186,6 @@ mv arquivo.txt /home/user/Documents
 #Renomear:
 mv arquivo.txt novo_nome.txt
 ```
-
-
-### 9. Comando less (Navegar no arquivo)
-
 =======
 Observação: ao pressionar a tecla `tab` o terminal autocompleta, e em caso de
 diretórios ele adicionará uma `/` ao final do caminho, mas em casos de
